@@ -3,10 +3,11 @@ package constants
 type ActionType string
 
 const (
-	ActionNoop  ActionType = "NOOP"
-	ActionWalk  ActionType = "WALK"
-	ActionThrow ActionType = "THROW"
-	ActionLook  ActionType = "LOOK"
+	ActionNoop   ActionType = "NOOP"
+	ActionCharge ActionType = "CHARGE"
+	ActionWalk   ActionType = "WALK"
+	ActionThrow  ActionType = "THROW"
+	ActionLook   ActionType = "LOOK"
 )
 
 type WalkDirection string

@@ -30,6 +30,18 @@ func NewNoOp() Action {
 	}
 }
 
+type ChargeOp struct {
+	ActionImpl
+}
+
+func NewChargeOp() Action {
+	return &NoOp{
+		ActionImpl{
+			Name: constants.ActionCharge,
+		},
+	}
+}
+
 type WalkOp struct {
 	ActionImpl
 
